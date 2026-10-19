@@ -1,1 +1,120 @@
+Process Writeup
+Name: Mofathel ZCourse: SEP10 (Web Design)Period: 2Concept: HTML Elements  
+What I Learned
+I learned about HTML elements on freeCodeCamp and took notes on the important details.
+I learned that:
 
+<h1> creates a main heading.
+<img src="image.png"> adds an image to a webpage.
+<a href="https://example.com">Link text</a> creates a link.
+<ol> creates an ordered list, and <ul> creates an unordered list.
+The id attribute can identify an element and help create links to parts of a page.
+You can make an image clickable by placing an <img> element inside an <a> element.
+Using href="#" creates a placeholder link that doesn’t navigate to another webpage.
+
+Process
+First, I added a heading to my webpage:
+
+          
+            
+            
+          
+          <h1>Red Pandas</h1>
+      Next, I added an image. I placed the image file in the img folder and used an <img> element to display it:
+
+          
+            
+            
+          
+          <img src="img/redpanda.jpg" alt="A red panda">
+      Then, I added a subheading and started an unordered list:
+
+          
+            
+            
+          
+          <h3>Facts:</h3>
+<ul>
+  <li>They're not actually pandas and aren't related to giant pandas.</li>
+  <li>They have an internet browser named after them.</li>
+  <li>They are an endangered species.</li>
+  <li>They can run up to 24 mph.</li>
+</ul>
+      To link the words “internet browser named after them” to Mozilla, I placed an anchor element around those words:
+
+          
+            
+            
+          
+          <li>They have an <a href="https://www.mozilla.org">internet browser named after them</a>.</li>
+      Finally, I added a link to the Wikipedia page about red pandas:
+
+          
+            
+            
+          
+          <a href="https://en.wikipedia.org/wiki/Red_panda">Learn More</a>
+      Mistakes
+One mistake I made on freeCodeCamp was confusing the letter l with the number 1. I typed <u1> instead of <ul>. After seeing the error several times, I looked more closely, found the mistake, and corrected it.
+Incorrect code:
+
+          
+            
+            
+          
+          <u1>
+  <li>Milk</li>
+  <li>Cheese</li>
+</u1>
+      Correct code:
+
+          
+            
+            
+          
+          <ul>
+  <li>Milk</li>
+  <li>Cheese</li>
+</ul>
+      I also tried to indent a list item by adding spaces before its code. That changed the way the code looked, but it did not create a nested list. After asking Vivian on Slack, I learned that I needed to put another list inside a list item.
+
+          
+            
+            
+          
+          <ul>
+  <li>Regular item
+    <ul>
+      <li>Indented item</li>
+    </ul>
+  </li>
+</ul>
+      I tested the code in JSBin and saw that the nested item appeared as a sub-list.
+End Result
+My project is called MakeSomethingHTML.
+The code inside the <body> element was:
+
+          
+            
+            
+          
+          <h1>Red Pandas</h1>
+<img src="img/redpanda.jpg" alt="A red panda">
+
+<h3>Facts:</h3>
+<ul>
+  <li>They're not actually pandas and aren't related to giant pandas.</li>
+  <li>They have an <a href="https://www.mozilla.org">internet browser named after them</a>.</li>
+  <li>They are an endangered species.</li>
+  <li>They can run up to 24 mph.</li>
+</ul>
+
+<a href="https://en.wikipedia.org/wiki/Red_panda">Learn More</a>
+      Takeaways
+
+The lowercase letter l and the number 1 can look similar, so I should check carefully when typing <ul>.
+To make an image clickable, I can place the <img> element inside an <a> element.
+Indenting code does not create a nested list; I need to put a new list inside a list item.
+Asking for help and testing code in JSBin helped me solve problems.
+
+Making HTML is fun, and I’m excited to learn about CSS.
