@@ -1,4 +1,4 @@
-# Part A: Existing Technology — Discontinued Apps and Programs
+# Part A: Existing Technology
 
 - **Google Reader** — Google Reader helped people follow new posts from blogs and websites in one place. Google shut it down in 2013. [Source](https://en.wikipedia.org/wiki/Google_Reader)
 
